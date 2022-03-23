@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 - Prograqmacion 3</title>
+</head>
+<body>
+    <form action="/" method="post">
+        Nombre: <br>
+        <input type="text" placeholder="Ingrese nombre"> <br>
+        Apellido: <br>
+        <input type="text" placeholder="Ingrese apellido"> <br><br>
+
+        Seleccione Género: <br>
+        <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+        <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+        <input type="radio" name="genero" id="genero" value="3" checked> Prefiero no contestar <br><br>
+
+        Intereses: <br>
+        <input type="checkbox" name="intereses" id="intereses" > Deportes <br>
+        <input type="checkbox" name="intereses" id="intereses" > Peliculas <br>
+        <input type="checkbox" name="intereses" id="intereses" > Series <br><br>
+        
+        Fecha de nacimiento: <br>
+        <input type="date" name="fecha_nac" id="fecha_nac" min="2022-03-23" max="2022-03-26"> <br><br>
+
+        Seleccionar provincias: <br>
+        <select name="provincias" id="provincias">
+            <option value="" selected disabled>-Seleccionar-</option>
+            <option value="1">Córdoba</option>
+            <option value="2">Buenos Aires</option>
+        </select> <br><br>
+
+        Mensaje: <br>
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su comentario.."></textarea>
+    </form>
+</body>
+</html>
